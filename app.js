@@ -18,7 +18,7 @@ clearBtn.addEventListener('click', clearInputAndResult);
 function showPaymentInfo() {
     let monthlyPayment = calcMonthlyPayment(loanAmount.value, interestRate.value, noOfMonth.value);
     paymentInfoList[0].innerHTML = `₦${loanAmount.value.toLocaleString()}`;
-    paymentInfoList[1].innerHTML = `₦${interestRate.value}%`;
+    paymentInfoList[1].innerHTML = `${interestRate.value}%`;
     paymentInfoList[2].innerHTML = noOfMonth.value;
     paymentInfoList[3].innerHTML = `₦${parseFloat(monthlyPayment).toLocaleString()}`;
 }
