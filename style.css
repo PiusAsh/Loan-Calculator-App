@@ -11,12 +11,12 @@
 
 body {
     background-color: #f1f5f8;
-    line-height: 1.5;
+    /* line-height: 1.5; */
 }
 
 .calc-wrapper {
     max-width: 900px;
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     margin: 0 auto;
 }
 
